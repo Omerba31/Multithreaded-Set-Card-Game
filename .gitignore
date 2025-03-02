@@ -1,0 +1,28 @@
+# Ignore Maven target directory (compiled files)
+target/
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+hs_err_pid*
+
+# Ignore IDE and editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Maven wrapper files
+.mvn/
+mvnw
+mvnw.cmd
